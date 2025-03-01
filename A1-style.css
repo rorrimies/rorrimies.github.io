@@ -1,0 +1,27 @@
+/*-----------------------*/
+/* Code tutorial source: https://www.w3schools.com/html/html_images_background.asp*/
+body{
+    background-image: url(https://i.pinimg.com/736x/28/b9/50/28b950e81b3ef540162faf41ce227029.jpg);
+}
+/*End of source code */
+/*-----------------------*/
+
+/*---------------------------------*/
+/* Code tutorial source: https://www.w3schools.com/html/html_css.asp*/
+
+h1{
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: rgb(192, 54, 192);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: black;
+    font-family:monospace;
+}
+/*End of source code */
+/*---------------------------------*/
