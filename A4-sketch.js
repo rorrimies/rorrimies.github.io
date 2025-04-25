@@ -39,7 +39,7 @@ function createDiamonds(){
                 // -------------------------------
                 // ---------------------------------------------------------
                 // !!!!! Code tutorial source: https://p5js.org/reference/p5/quad/
-                quad(this.x, this.y, this.x + 200, this.y - 100, this.x, this.y - 200, this.x - 100, this.y - 200);
+                quad(this.x, this.y, this.x + 200, this.y - 100, this.x, this.y - 200, this.x - 200, this.y - 100);
                  // !!!!! End of source code
                 // ---------------------------------------------------------
                 pop();
