@@ -1,0 +1,136 @@
+
+/* COLLAPSIBLE TEXT SECTION */
+/* ----------------------------------------- */
+/* !!!!! Code tutorial source 01: https://www.w3schools.com/howto/howto_js_accordion.asp*/
+
+/* Buttons to open/close the text boxes */
+.accordion {
+    background-color: silver; 
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+/* Background colour to the button if it is clicked/hovered on */
+.active, .accordion:hover {background-color: darkred;}
+
+/* Collapsing panel*/
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+/* Animating the Accordian */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Adding Icons */
+.accordion:after {
+    /* Unicode character for "plus" sign (+) is \02795*/
+    content: '\02795';
+    font-size: 13px;
+    color: darkred;
+    float: right;
+    margin-left: 5px;
+}
+    
+/* Unicode character for "minus" sign (-) is \2796 */
+.active:after {content: "\2796";}
+
+/* !!!!! End of source code 01 */
+/* ----------------------------------------- */
+
+/* GALLERY SECTION */
+/* -------------------------------------------------------------------------------- */
+/* !!!!! Code tutorial source 02: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+
+*{box-sizing: border-box;}
+
+/* To position the image container, needed to position the arrows */
+.container{position: relative;}
+
+/* Hide the imges by default */
+.mySlides{display: none;}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor{cursor: pointer;}
+
+/* Next/prev buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the next button to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px
+}
+
+/* While hovering, this adds a black background color that's slightly transparent */
+.prev:hover,
+.next:hover {
+    background-color: darkred;
+}
+
+/* Number text (1/6, 2/6, etc.) */
+.numbertext {
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 30px;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: darkred;
+    padding: 2px 16px;
+    color: white;
+
+   /* ##### MY OWN ADDITION: */ font-size: 30px;
+
+}
+
+.row:after {
+    content: "";
+     display: table;
+    clear: both;
+}
+
+/* 6 columns side by side (for the bottom part/preview of the gallery) */
+.column {
+    float: left;
+    width: 16.6%;
+}
+
+/* Add transparency effect for thumbnail images, when they are at the bottom and aren't selected */
+.demo {opacity: 0.6;}
+
+.active, .demo:hover {opacity: 1;}
+
+/* !!!!! End of source code 02 */
+/* -------------------------------------------------------------------------------- */

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Assignment 2 </title>
+        <link rel="stylesheet" href="A2-style.css">
+    </head>
+    
+    <body>
+        <h1> I went to the Toronto EMEI concert recently!! </h1>
+
+        <!-- COLLAPSIBLE TEXT SECTION -->
+        <!-- --------------------------------------------- -->
+        <!-- !!!!! Code tutorial source 01: https://www.w3schools.com/howto/howto_js_accordion.asp -->
+            <!-- With this code tutorial, I can talk about the concert! -->
+
+        <button class="accordion">Who did I go with?</button>
+        <div class="panel">
+            <p>None of my friends listen to EMEI sadly, so I actually went alone T^T. But it's okay, I had a lot of fun regardless!!</p>
+            
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI8.jpg" style= "width:25%"> 
+            <img src="EMEI9.jpg" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+        
+        <button class="accordion">What did I wear?</button>
+        <div class="panel">
+            <p>EMEI actually had a colour theme for her whole tour (red, black, and silver) and every city had a song of hers as a theme. Toronto's special song theme had hearts, lace, and pearls!!</p>
+           
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI10.jpg" style= "width:25%"> 
+            <img src="EMEI11.jpg" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+
+        <button class="accordion">Where was the venue?</button>
+        <div class="panel">
+            <p>The venue is called The Axis Club! I've been there a couple times before so it was nice to be familiar with the venue beforehand!</p>
+         
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI12.jpg" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+
+        <button class="accordion">When did the concert happen?</button>
+        <div class="panel">
+            <p>March 18, 2025!!</p>
+
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI13.PNG" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+
+        <button class="accordion">Why did I want to go?</button>
+        <div class="panel">
+            <p>I started listening to EMEI about a year ago? And I love her music a lot, so I was extremely happy to get tickets. It was also a bonus that I listen to Haiden Henderson too!</p>
+            
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI14.jpg" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+
+        <button class="accordion">How did I get there?</button>
+        <div class="panel">
+            <p>I got ready at a friend's place in Toronto then Ubered there. I ended up being a little late... But my makeup was worth the wait haha. I had to Uber back too because I forgot my Presto (which never happens)!!</p>
+            
+            <!-- ------------------------------- -->
+            <!-- ##### MY OWN ADDITION -->
+            <img src="EMEI15.jpg" style= "width:25%"> 
+            <!-- ##### END OF MY OWN ADDITION -->
+            <!-- ------------------------------- -->
+        </div>
+
+        <!-- !!!!! End of source code 01-->
+        <!-- --------------------------------------------- -->
+
+        <h1> Scroll down to see more pictures I took and the silly little captions I added! </h1>
+
+        <!-- GALLERY SECTION -->
+        <!--------------------------------------------------------------------------------------------------->
+        <!-- !!!!! Code tutorial source 02: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp-->
+            <!-- With this code tutorial, I can add pictures to my site! -->
+
+        <!-- Image gallery container -->
+        <div class="container"> 
+
+            <!-- Full-width images with number text -->
+
+            <!-- Picture 1 -->
+            <div class="mySlides">
+                <div class="numbertext"> 1 / 6</div>
+                    <img src="EMEI1.jpg" style="width: 100%"> </div>
+
+            <!-- Picture 2 -->
+            <div class="mySlides">
+                <div class="numbertext"> 2 / 6</div>
+                    <img src="EMEI2.jpg" style="width: 100%"> </div>
+
+            <!-- Picture 3 -->
+            <div class="mySlides">
+                <div class="numbertext"> 3 / 6</div>
+                    <img src="EMEI3.jpg" style="width: 100%"> </div>
+
+            <!-- Picture 4 -->
+            <div class="mySlides">
+                <div class="numbertext"> 4 / 6</div>
+                    <img src="EMEI4.jpg" style="width: 100%"> </div>
+
+            <!-- Picture 5 -->
+            <div class="mySlides">
+                <div class="numbertext"> 5 / 6</div>
+                    <img src="EMEI5.jpg" style="width: 100%"> </div>
+
+            <!-- Picture 6 -->
+            <div class="mySlides">
+                <div class="numbertext"> 6 / 6</div>
+                    <img src="EMEI6.jpg" style="width: 100%"> </div>
+        
+        <!-- Next/Previous Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094; </a>
+        <a class="next" onclick="plusSlides(1)">&#10095; </a>
+
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"> </p> </div>
+
+        <!-- Thumbnail images -->
+            <div class="row">
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI1.jpg" style="width: 100%" onclick="currentSlide(1)" alt="One of the openers: Haiden Henderson!"> </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI2.jpg" style="width: 100%" onclick="currentSlide(2)" alt="I was SUPERR excited when this finally appeared!"></div>
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI3.jpg" style="width: 100%" onclick="currentSlide(3)" alt="EMEI!! Her smile is so precious hehe"> </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI4.jpg" style="width: 100%" onclick="currentSlide(4)" alt="I'm so happy I got to attend this concert omg T^T"> </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI5.jpg" style="width: 100%" onclick="currentSlide(5)" alt="They sang the Bieber classic: BABY BABY BABY OHHH OH BABY BABY BABY OHHH !!! XD"> </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="EMEI6.jpg" style="width: 100%" onclick="currentSlide(6)" alt="This is one of my fav pics I took of her!"> </div>
+                
+            </div>
+        </div>
+
+        <!-- !!!!! End of source code 02-->
+        <!--------------------------------------------------------------------------------------------------->
+
+        <script src="A2-script.js"> </script>
+        <script src="A2-sketch.js"> </script>
+    </body>
+</html>
