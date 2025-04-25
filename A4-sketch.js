@@ -39,7 +39,7 @@ function createDiamonds(){
                 // -------------------------------
                 // ---------------------------------------------------------
                 // !!!!! Code tutorial source: https://p5js.org/reference/p5/quad/
-                quad(this.x, this.y, this.x + 50, this.y - 25, this.x, this.y - 50, this.x - 50, this.y - 25);
+                quad(this.x, this.y, this.x + 200, this.y - 100, this.x, this.y - 200, this.x - 100, this.y - 200);
                  // !!!!! End of source code
                 // ---------------------------------------------------------
                 pop();
@@ -114,7 +114,7 @@ function createIangles(){
                 rotate(this.rotation);
                 // !!!!! End of source code
                 // -------------------------------
-                triangle(this.x, this.y, this.x+100, this.y+100, this.x-100, this.y+100);
+                triangle(this.x, this.y, this.x+300, this.y+300, this.x-300, this.y+300);
                 pop();
                 this.update();
             },
