@@ -79,10 +79,7 @@ function createTangles(){
                 rotate(this.rotation);
                 // !!!!! End of source code
                 // -------------------------------
-                // rect(this.x,this.y, this.w, this.h);
-                // console.log(star);
-                textSize(50);
-                text("9733");
+                rect(this.x,this.y, this.w, this.h);
                 pop();
                 this.update();
             },
