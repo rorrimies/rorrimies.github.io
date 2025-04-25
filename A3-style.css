@@ -1,0 +1,11 @@
+
+/* ---------------------------- */
+/* !!!!! Code tutorial source: https://www.w3schools.com/css/css_positioning.asp */
+/* This code was used to make the list titles and text boxes move to the right */
+
+div.relative {
+    position: relative;
+    left: 20px;
+}
+/* !!!!! End of source code */
+/* ---------------------------- */
