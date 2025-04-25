@@ -185,7 +185,7 @@ function draw(){
     fill("white");
     text(shapes.length, 50, 50);
 
-    if(shapes.length > 500){
+    if(shapes.length > 100){
         shapes.pop(diamond);
         shapes.pop(tangle);
         shapes.pop(iangle);
