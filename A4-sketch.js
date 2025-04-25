@@ -1,18 +1,4 @@
 
-// conceptualize the idea
-
-// rotating stars + shapes
-// one row of stars, then after one full spin, a row of another shape appears (w/ push() function), repeat
-// SHAPES: https://www.w3schools.com/charsets/ref_utf_symbols.asp
-// ROTATE: https://p5js.org/examples//transformation-rotate/
-
-// different shapes
-// different sizes
-// shrink + grow (if + else statement)
-// buttons to change the direction that the shapes move
-// rotate CW + CCW (if + else statement with buttons)
-// Maybe I'll have like 3 shapes in the array already, then add and remove things later
-
 var shapes = [];
 
 function createDiamonds(){
