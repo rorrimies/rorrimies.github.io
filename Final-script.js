@@ -10,7 +10,7 @@ egg.onclick = function(){
 
 // VIDEOS
 // ---------------------------------------------------------------------------------------------------------------
-// !!!!! Code tutorial source 04: https://www.w3schools.com/html/html5_video.asp
+// !!!!! Code tutorial source 01: https://www.w3schools.com/html/html5_video.asp
 var LOGO = document.getElementById("logo");
 var ABCS = document.getElementById("abcs");
 var EXCERCISES = document.getElementById("exercises");
@@ -45,5 +45,5 @@ function playpause4(){
     }
 }
 
-// !!!!! End of source code 04 */
+// !!!!! End of source code 01 */
 // ---------------------------------------------------------------------------------------------------------------
