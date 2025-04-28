@@ -1,41 +1,4 @@
 
-// CONCEPTUALIZE!!!
-
-// GENERAL
-    // Buttons
-        // DONE Scroll back to the top
-        // DONE Menu buttons for each section (group buttons)
-        // DONE Hidden Easter egg
-            // DONE Image as alert button, the text "Hehe yay you found this little easter egg!" pops up
-            // DONE (along with the menu buttons, it's still in its own container)
-        // DONE Make everything look nice :]
-
-// BACKGROUND
-    // DONE BORDER
-    // DONE BUBBLES
-    // DONE SKY (in html)
-        // NEED TO FIX If I have time I'd rather just have a blue background then have cloud objects show up randomly every time the page refreshes
-
-
-// S1: POETRY
-    // MAYBE NOT THIS ANYMORE Accordian, each poem has their own part
-    // DONE Two columns in each part, left is the poem and right are my notes/comments
-
-// S2: VIDEOS
-    // DONE Videos (at least three?)
-
-// S3: PICTURES
-    // Gallery?
-    // Links to some of my inspirations
-
-// If I have time:
-    // DONE Make the menu buttons individual divs, and make them fixed so it moves down too
-    // Section off the pictures part by project (like the accordian but something else so it's not the same)
-    // Audio
-    // Buttons to show the video hidden behind it (maybe...)
-
-
-
 // GENERAL
     // SCROLL TO THE TOP BUTTON
         // --------------------------------
