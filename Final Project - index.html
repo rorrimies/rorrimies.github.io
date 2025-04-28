@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Final Project </title>
+        <script src="p5.min.js"> </script>
+        <link rel="stylesheet" href="Final-style.css">
+    </head>
+
+    <body>
+
+    <div id="container1">
+        <canvas> </canvas>
+        <!-- EASTER EGG -->
+        <div id="egg"> Easter Egg </div>
+
+        <!-- SCROLL TO THE TOP BUTTON -->
+        <!-- ----------------------------------------------- -->
+        <!-- !!!!! Code tutorial source 01: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+            <!-- ### I did remove the title attribute because I don't need it-->
+            <!-- I used the same logic for the menu buttons -->
+        <button onclick="topFunction()" id="topButton"> Back to Top </button>
+      
+    </div>
+    
+    <div id="container2">
+
+        <!-- MENU BUTTONS -->
+        <div class="menuButtons">
+            <!-- ### I gave each button a div id so I can make each of them scroll back to their own sections -->
+            <button onclick="poetryFunction()" id="poetryButton"> Poetry </button>
+            <button onclick="filmFunction()" id="filmButton"> Film </button>
+        </div>
+        <!-- !!!!! End of source code 01 -->
+        <!-- ----------------------------------------------- -->
+        
+        <!-- TITLE -->
+        <br> <br> <br>
+        <h1> Carina Quijano's </h1>
+        <h1> Portfolio </h1>
+        <br> <br> <br>
+
+        <!-- TWO COLUMNS -->
+        <!-- ------------------------------------------------------------------------------------ -->
+        <!-- !!!!! Code tutorial source 02: https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+            <!-- ### I added more divs (haikuLeft/Right and poemLeft/Right) so I can style this section further -->
+        <!-- !!!!! <br> is used to start a new line, source: https://www.computerhope.com/issues/ch001737.htm#:~:text=Creating%20a%20new%20line%20in,shown%20in%20the%20example%20below. -->
+        <div class="row1">
+            <div class="column left" style="background-color: lavender">
+                <h2> Famous Chips Described in Haiku </h2> 
+                <div id="haikuLeft"> 
+                    <h3> Pringles </h3>
+                    <p>
+                    Man with a moustache <br> 
+                    Paraboloids piled up <br> 
+                    Single? Eat Pringles <br>
+                    
+                    <h3> Doritos </h3>
+                    Triangle shaped <br> 
+                    Finger-lickin’ good (I guess?) <br> 
+                    It’s a gamer’s chip! <br> 
+
+                    <h3> Lays </h3>
+                    The salty classic <br> 
+                    The flavour competition <br> 
+                    The forever pick <br> 
+
+                    <h3> Ms. Vickies </h3>
+                    The kettle cooked, <br> 
+                    colour coordinated, <br> 
+                    loved recipe! <br> <br> 
+                </div>
+                <div id="haikuRight"> 
+                    <h3> Cheetos </h3>
+                    Crunchy or puffy, <br> 
+                    cheesy or spicy goodness, <br> 
+                    they go CRUNCH, CRUNCH, CRUNCH! <br> 
+
+                    <h3> Ruffles </h3>
+                    The forgettable <br> 
+                    NBA’s official chip. <br> 
+                    “Lays wannabe?” …“Yeah.” <br> 
+
+                    <h3> Takis </h3>
+                    Famously spicy. <br> 
+                    Highschoolers’ beloved. <br> 
+                    Canada’s baby. <br>                
+
+                    <h3> Tostitos </h3>
+                    “Where’s the dip, bro?” <br> 
+                    “In the fridge, go get it now!” <br> 
+                    Tostitos for life! <br> <br> 
+                </p>
+                </div>
+            </div>
+            <div class="column right" style="background-color: plum">
+                <h2> FUN FACT! </h2>
+                <p> While these were written for a haiku assignment, I love how silly these turned out. It reminded me that not all my poems need to be taken so seriously haha</p>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="column left" style="background-color: plum">
+                <h2> [Yesterday] </h2>
+                <!-- !!!!! <br> used to start a new line in one <p>, source: https://www.computerhope.com/issues/ch001737.htm#:~:text=Creating%20a%20new%20line%20in,shown%20in%20the%20example%20below. -->
+                <p>
+                <div id="poemRight">
+                    I’m on my way, u awake?
+                    <br> <br> <br>
+                    The route from my bedroom <br>
+                    to your second floor condo apartment <br>
+                    is the opening song of a show <br>
+                    that I have subconsciously memorized <br>
+                    <br> <br> <br> <br> <br>
+                    Shoe-dragging or caffeine-full, I knock <br>
+                    before we do our handshake <br>
+                    —and don’t you dare miss a beat— <br>
+                    to our Season 3 title scene :”] <br>
+                    <br> <br> <br> <br> <br>
+                    I wouldn’t call it comedyyy but funny bs <br>
+                    because while we don’t like to take life seriously <br>
+                    we know how to stream tears and giggles <br>
+                    into the same channel so we can call life fun <br>
+                    <br> <br> <br>
+                    Idk when we started to rehearse <br>
+                    lines for interviews and prepare you for <br>
+                    meet-cutes with strangers in your lobby, <br>
+                    but I want these moments to be in the recap <br>
+                    <br> <br>
+                    at the end of this episode when I go home <br>
+                    and send you a link to follow my Uber ride, <br>
+                    so I can recall the times we wished <br>
+                    we could press pause. <br>
+                    <br> <br>
+                    press pause. <br>
+                    and playback. <br>
+                    and play. <br>
+                    and repeat. <br>
+                    <br> <br> <br> <br> <br> <br> <br>
+                    LOL I knew it XD <br>
+                    Also, okie coolios, thank youu <br>
+                    See u in a minute hehe <br>
+                </div>
+                <div id="poemLeft">
+                    barely
+                    <br> <br> <br> <br> <br> <br> <br>
+                    nv irks but pleases me, that you like <br>
+                    to call me and complain about the ttc <br>
+                    and all its detours and delays <br>
+                    (ik its ur way of skipping through it) <br>
+                    <br> <br> <br> <br>
+                    yk our first scene that replays everyday <br>
+                    is the shows own inside joke that our <br>
+                    friends talk about after the laughs air out <br>
+                    theyre the viewers of our unfiltered comedy <br>
+                    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                    [6:37 pm] <br> <br>
+                    i fell asleep lol sorry <br>
+                    but im awake now <br>
+                    u downstairs? <br>
+                    the doors open for u <br>
+                    <br> <br> <br> <br>
+                    [When we’re old, I wish we can (have a re)run] <br> <br> <br>
+                
+                </div>
+                <p>
+            </div>
+            <div class="column right" style="background-color: lavender;">
+                <h2> FUN FACT! </h2>
+                <p> I wrote this about my bestie. I even copied our texting styles!</p>
+            </div>
+        </div>
+        <!-- !!!!! End of source code 02 -->
+        <!-- ------------------------------------------------------------------------------------ -->
+    </div>
+
+    <!-- VIDEOS -->
+    <div id="videoSection">
+        <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+        <!-- !!!!! Code tutorial source 03: https://www.w3schools.com/html/html5_video.asp -->
+            <!-- ### I added ids to the buttons so I can style them in CSS-->
+            <!-- I did not include the other buttons that the tutorial showed because I just wanted the play/pause button -->
+        <div style="text-align:center">
+
+        <!-- LOGO -->
+            <br> <br> <br> <br> <br> <br> <br> <br> 
+            <button id="pauseplayButton" onclick="playpause1()"> Play/Pause </button>
+            <br> <br> 
+            <video id="logo">
+                <source src="Logo.mp4" type="video/mp4">
+            </video> 
+
+            <div class="videoText" style="text-align:center"> 
+                <p> I had to create a logo for myself, and present it in a video. This is the first video I've ever made with only Adobe After Effects. </p>
+            </div>  
+        
+        <!-- 10 EXERCISES -->
+            <br> <br> <br> <br> <br> <br> <br> <br> 
+            <button id="pauseplayButton" onclick="playpause2()"> Play/Pause </button>
+            <br> <br> 
+            <video id="exercises">
+                <source src="10 Exercises.mp4" type="video/mp4">
+            </video> 
+
+            <div class="videoText" style="text-align:center"> 
+            <p> I had to create a short video showing the different editing techniques I learned in After Effects. </p>
+            </div>        
+
+        <!-- ABCS OF BTS -->
+            <br> <br> <br> <br> <br> <br> <br> <br> 
+            <button id="pauseplayButton" onclick="playpause3()"> Play/Pause </button>
+            <br> <br> 
+            <video id="abcs">
+                <source src="abcs of bts.mp4" type="video/mp4">
+            </video> 
+
+            <div class="videoText" style="text-align:center"> 
+                <p> I had fun making this one because I got to add some of the fandom's inside jokes. </p>
+            </div>
+
+        <!-- STARDEW VALLEY -->
+            <br> <br> <br> <br> <br> <br> <br> <br> 
+            <button id="pauseplayButton" onclick="playpause4()"> Play/Pause </button>
+            <br> <br> 
+            <video id="stardew">
+                <source src="Stardew Valley.mp4" type="video/mp4">
+            </video> 
+
+            <div class="videoText" style="text-align:center"> 
+            <p> I learned how to make pixel art! I struggled a lot with this video, but I learned a lot in the process. </p>
+            </div>  
+
+        </div>
+        <!-- !!!!! End of source code 03 -->
+        <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+    </div>
+        <script src="Final-script.js"> </script>
+        <script src="Final-sketch.js"> </script>
+    </body>
+</html>

@@ -1,0 +1,207 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadckB8xN-7bxbMzA-YypBAGi7pzz_KCM1pg&s);
+    background-size: 100%;
+}
+
+/* CONTAINER 1 (Top Button and Easter Egg) */
+#container1{
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+}
+
+/* CONTAINER 2 (Menu, Title, Columns, Videos) */
+#container2{
+    position: relative;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* EASTER EGG */
+#egg{
+    font-size: 10px; 
+    position: fixed;
+    right: 10px;
+    z-index: 99;
+    padding: 10px;
+}
+
+/* SCROLL TO THE TOP BUTTON */
+/* -------------------------------- */
+/* !!!!! Code tutorial source 01: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#topButton{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    border-color: black;
+    background-color: purple;
+    color: lavender; 
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 20px; 
+}
+
+/* MENU BUTTONS */
+.menuButtons button{
+    font-size: 25px; 
+    background-color: lavender;
+    border: 2px solid purple;
+    color: purple;
+    cursor: pointer;
+}
+
+#poetryButton{
+    display: none;
+    position: fixed;
+    padding: 6px 60px;
+    left: 0;
+    top: 50px;
+    z-index: 99;
+}
+
+#filmButton{
+    display: none;
+    position: fixed;
+    padding: 6px 72px;
+    left: 0;
+    top: 100px;
+    z-index: 99;
+}
+/* !!!!! End of source code 01 */
+/* -------------------------------- */
+
+/* TITLE */
+h1{
+    color: purple;
+    font-size: 70px;
+    padding: 0px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* SUBTITLES */
+h2{
+    color: black;
+    font-size: 25px;
+    padding: 0px;
+    font-family: 'Times New Roman Bold', Times, serif;
+}
+
+/* TWO COLUMNS */
+/* ----------------------------------------------------------------------------- */
+/* !!!!! Code tutorial source 02: https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+
+*{box-sizing: border-box;}
+
+.column{
+    float: left;
+    padding: 10px;
+    /* ### I added these three next lines: */
+    position: relative;
+    top: 50px;
+    border: 2px solid black;
+}
+
+.left{
+    left: 15%; /* ### I added this line to the tutorial code */
+    width: 55%;
+}
+
+.right{
+    width: 30%;
+    /* ### I added this one next line, "deg" was learned from https://www.w3schools.com/cssref/css_pr_rotate.php */
+    rotate: 30deg;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* !!!!! End of source code 02 */
+/* ----------------------------------------------------------------------------- */
+
+/* INSIDE ROW 1 */
+#haikuLeft{
+    position: relative;
+    left: 0;
+    top: 0px;   
+}
+
+#haikuRight{
+    position: absolute;
+    left: 300px;
+    top: 62px;
+}
+
+/* INSIDE ROW 2 */
+#poemLeft{
+    position: relative;
+    left: 0;
+    top: 40px;
+    width: 50%;  
+}
+
+#poemRight{
+    text-align: right;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+/* VIDEOS */
+#videoSection{
+    padding: 0px;
+    position: absolute;
+    top: 2100px;
+    left: 25%;
+    width: 50%;
+}
+
+#logo{
+    width: 100%;
+    border: 4px solid white;
+}
+
+#exercises{
+    width: 100%;
+    border: 3px solid white;
+}
+
+#abcs{
+    width: 100%;
+    border: 3px solid white;
+}
+
+#stardew{
+    width: 100%;
+    border: 3px solid white;
+}
+
+#pauseplayButton{
+    font-size: 30px;
+    background-color: purple;
+    color: lavender;
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.videoText{
+    position: absolute;
+    font-size: 20px;
+    left: 25%; 
+    width: 50%;
+}
